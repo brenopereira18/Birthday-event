@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
@@ -37,19 +38,47 @@
         </div>        
     </header>
     <section class="menu">
-        <div class="menu__content">
-            <div class="menu__description">
-                <h2 class="menu__description__title">
-
+        <div class="menu__content" data-aos="fade-left">
+            <div class="menu__content__description">
+                <h2 class="menu__content__description__title">
+                    Bebidas
                 </h2>
                 <p>
-                    
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, similique quos? Natus iusto doloribus beatae officiis consequatur atque. Dolores rem porro nemo, consequuntur earum deserunt labore veniam minima! Nostrum, voluptates?
                 </p>
             </div>
             <div class="menu__image">
-                
+                <img src="./images/bebidas.jpg" alt="Bebidas">    
+            </div>
+        </div>
+        <div class="menu__content menu__content--reverse" data-aos="fade-right">    
+            <div class="menu__content__description">
+                <h2 class="menu__content__description__title">
+                    Comidas
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, similique quos? Natus iusto doloribus beatae officiis consequatur atque. Dolores rem porro nemo, consequuntur earum deserunt labore veniam minima! Nostrum, voluptates?
+                </p>
+            </div>
+            <div class="menu__image">
+                <img src="./images/comidas.jpg" alt="Comidas">    
+            </div>
+        </div>
+        <div class="menu__content" data-aos="fade-left">
+            <div class="menu__content__description">
+                <h2 class="menu__content__description__title">
+                    Lancha da festa
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, similique quos? Natus iusto doloribus beatae officiis consequatur atque. Dolores rem porro nemo, consequuntur earum deserunt labore veniam minima! Nostrum, voluptates?
+                </p>
+            </div>
+            <div class="menu__image">
+                <img src="./images/lancha-festa.jpg" alt="Lancha">    
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>

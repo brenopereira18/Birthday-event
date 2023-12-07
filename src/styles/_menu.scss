@@ -1,1 +1,39 @@
 @use 'variaveis';
+
+.menu {
+    color: #000;
+    padding: 16px;
+    background-image: linear-gradient(variaveis.$corFundoDoBotao, variaveis.$corBotao, variaveis.$corBotao, variaveis.$corFundoDoBotao);
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin: 100px;
+        align-items: center;
+
+        &__description {
+            max-width: 460px;
+            width: 100%;
+            text-align: center;
+            
+            &__title {
+                padding-bottom: 16px;
+                font-family: 'Josefin Sans', sans-serif;
+            }
+        }
+
+        &--reverse {
+            flex-direction: row-reverse;
+        }
+
+    }
+
+    &__image {        
+        img {
+            max-width: 360px;
+            width: 100%;
+        }
+    }
+
+}
