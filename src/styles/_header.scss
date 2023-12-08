@@ -78,4 +78,57 @@
             background-color: variaveis.$corFundoDoBotao; 
         }
     }
+
+    @media (max-width: 767px) { 
+        padding-bottom: 40px;      
+
+        &__subtitle, .time__event {
+            font-size: 24px;
+        } 
+        
+        &__subtitle {
+            margin-top: 20px;
+            line-height: 36px;
+        }
+
+        .infos-bar {
+            display: block;
+            margin: 80px 28px 16px;
+            padding-bottom: 28px;
+
+            &__infos {
+                display: block;
+
+                &__item {
+                    margin-bottom: 24px;
+                    
+                    &:nth-child(3) {
+                        padding-bottom: 24px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .infos-bar {
+            display: block;
+            margin: 80px 140px 16px;
+            padding-bottom: 28px;
+
+            &__infos {
+                display: block;
+
+                &__item {
+                    margin-bottom: 24px;
+                    
+                    &:nth-child(3) {
+                        padding-bottom: 24px;
+                    }
+                }
+            }
+        }    
+    }
+           
 }
